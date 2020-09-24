@@ -41,14 +41,16 @@ body{
     color: #1abc9c;
 }
 
+/* classe background-green da riciclare per le altre sezioni con sfondo verde*/
 .bg-green{
     background-color: #1abc9c;
 }
 
+
 .avatar{
     width: 240px;
     height: 240px;
-    margin-top: 100px;
+    margin-top: 200px;
     margin-bottom: 50px;
 }
 
@@ -62,13 +64,14 @@ header h1{
     font-weight: 600;
 }
 
-.star-divider{
+/* creazione star-divider color white */
+.star-divider-white{
     display: inline-block;
     margin-top: 20px;
     margin-bottom: 20px;
 }
 
-.star-divider .line-left{
+.star-divider-white .line-left{
     background-color: white;
     width: 120px;
     height: 4px;
@@ -78,7 +81,7 @@ header h1{
     margin-right: 10px;
 }
 
-.star-divider .line-right{
+.star-divider-white .line-right{
     background-color: white;
     width: 120px;
     height: 4px;
@@ -87,15 +90,72 @@ header h1{
     margin-top: 10px;
     margin-left: 10px;
 }
-.star-divider i{
+.star-divider-white i{
     color: white;
     float: left;
     font-size: 30px;
 }
+/* fine star-divider-white */
 
 header p{
     color: white;
     margin-top: 10px;
     font-size: 24px;
     font-weight: 300;
+}
+
+
+/* sezione portfolio */
+
+
+section h2{
+    color: #2c3e50;
+    font-size: 48px;
+    font-weight: 700;
+    margin-top: 100px;
+}
+
+/* star-divider-dark */
+
+.star-divider-dark{
+    display: inline-block;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.star-divider-dark .line-left{
+    background-color: #2c3e50;
+    width: 120px;
+    height: 4px;
+    float:left;
+    line-height: 20px;
+    margin-top: 10px;
+    margin-right: 10px;
+}
+
+.star-divider-dark .line-right{
+    background-color: #2c3e50;
+    width: 120px;
+    height: 4px;
+    float:left;
+    line-height: 20px;
+    margin-top: 10px;
+    margin-left: 10px;
+}
+.star-divider-dark i{
+    color: #2c3e50;
+    float: left;
+    font-size: 30px;
+}
+
+/* inizio box */
+
+.row .box img{
+    padding: 20px;
+    margin-bottom: 20px;
+
+}
+
+.row{
+    margin-bottom: 100px;
 }
