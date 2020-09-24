@@ -52,6 +52,10 @@ body{
     margin-bottom: 50px;
 }
 
+header{
+    padding-bottom: 100px;
+}
+
 header h1{
     color: white;
     font-size: 64px;
@@ -61,6 +65,7 @@ header h1{
 .star-divider{
     display: inline-block;
     margin-top: 20px;
+    margin-bottom: 20px;
 }
 
 .star-divider .line-left{
@@ -86,4 +91,11 @@ header h1{
     color: white;
     float: left;
     font-size: 30px;
+}
+
+header p{
+    color: white;
+    margin-top: 10px;
+    font-size: 24px;
+    font-weight: 300;
 }
