@@ -150,10 +150,44 @@ section h2{
 
 /* inizio box */
 
-.row .box img{
-    padding: 20px;
-    margin-bottom: 20px;
+.portfolio-item{
+    cursor: pointer;
+    position: relative;
+    display: block;
+    max-width: 350px;
+    border-radius: 5px;
+    overflow: hidden;
+}
 
+.portfolio-item .portfolio-bg{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    transition: all 0.2s ease-in-out;
+    opacity: 0;
+    background-color: rgba(26, 188, 156, 0.9);
+    align-items: center;
+}
+.portfolio-item .portfolio-bg:hover{
+    opacity: 1;
+}
+
+.portfolio-item .portfolio-bg .portfolio-icon{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.portfolio-item .portfolio-bg .portfolio-icon i{
+    font-size: 80px;
+    color: white;
+}
+
+.row .box{
+    margin-bottom: 20px;
 }
 
 .row{
