@@ -58,6 +58,10 @@ header,#portfolio,#about,#contact{
     color: white;
 }
 
+.navbar-default .navbar-toggle:hover{
+    background-color: #117964;
+}
+
 .navbar-default .navbar-brand:hover,.navbar-default .navbar-nav>li>a:hover{
     color: #1abc9c;
 }
@@ -221,7 +225,36 @@ header p{
 
 /* inizio section CONTACT */
 
+.form-group{
+    border-bottom: 1px solid silver;
+    padding: 20px 0;
 
+}
+
+#input-name,
+#input-email,
+#input-number,
+#input-message{
+    border:none;
+    font-size: 20px;
+    font-weight: 400;
+    color: #495057;
+    outline: 0;
+}
+
+.btn-form{
+    padding: 20px 30px;
+    background-color: #1abc9c;
+    color: white;
+    border: none;
+    border-radius: 10px;
+    font-size: 20px;
+}
+
+.btn-form:hover{
+    background-color: #117964;
+    transition: 1s;
+}
 
 
 
