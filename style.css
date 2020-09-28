@@ -21,7 +21,7 @@ body{
 }
 
 /* padding alle varie sezioni */
-portfolio,#about,#contact{
+header,#portfolio,#about,#contact{
     padding: 100px 0;
 }
 
