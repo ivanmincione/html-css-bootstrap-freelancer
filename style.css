@@ -231,7 +231,32 @@ header p{
 #contact .form-group{
     border-bottom: 1px solid silver;
     padding: 20px 0;
+    margin-top: 20px;
+    position: relative;
+
 }
+
+
+#contact .form-group span{
+    position: absolute;
+    top: 0px;
+    left: 0;
+    font-size: 15px;
+    opacity: 0;
+    font-weight: 700;
+}
+
+#contact .form-group input:focus ~ span{
+    color: #1abc9c;
+    opacity: 1;
+    transition: 1.5s;
+}
+#contact .form-group textarea:focus ~ span{
+    color: #1abc9c;
+    opacity: 1;
+    transition: 1.5s;
+}
+
 
 #input-name,
 #input-email,
